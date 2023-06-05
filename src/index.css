@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sub-heading {
+  line-height: 1.2;
+}
+
+.hero-section {
+    height: 60vh;
+  background-image: linear-gradient(
+      to top,
+      rgba(10, 151, 202, 0.5),
+      rgba(10, 151, 202, 0.5)
+    ),
+    url("../src/assets/hero-bg-mob.png");
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-section {
+    height: 80vh;
+    background-image: linear-gradient(
+        to top,
+        rgba(10, 151, 202, 0.4),
+        rgba(10, 151, 202, 0.4)
+      ),
+      url("../src/assets/hero-bg.jpg");
+  }
+}
