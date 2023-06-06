@@ -5,7 +5,7 @@ import { Hero } from "./components/Hero";
 
 function App() {
   return (
-    <div className="app min-h-screen ">
+    <div className="app min-h-screen relative ">
       <Header />
       <Hero />
     </div>
