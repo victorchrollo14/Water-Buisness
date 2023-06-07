@@ -6,8 +6,6 @@
   line-height: 1.2;
 }
 
-
-
 .hero-section {
   height: 60vh;
   background-image: linear-gradient(
@@ -41,3 +39,11 @@
       url("../src/assets/can-mark-transformed.jpeg");
   }
 }
+
+/* .mask{
+  -webkit-mask-image: url("../src/assets/Vector.svg");
+  mask-image: url("./assets/Vector.svg");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-border: 1px solid rgb(32, 162, 248);
+} */
