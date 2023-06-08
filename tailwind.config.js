@@ -11,6 +11,8 @@ export default {
         ["l-blue-tr"]: "rgba(10, 151, 202, 0.5)",
         ["light-black"]: "#333333",
         ["light-green"]: "rgba(117, 251, 130, 0.5)",
+        ["lightest-blue"]: "#E9F9FF",
+        ["tblue"]: "#00D1FF",
       },
       fontFamily: {
         monospace: [
@@ -44,9 +46,13 @@ export default {
       },
       dropShadow: {
         clan: "-2px 2px 7px rgba(0,0,0,0.46)",
+        prod: "10px 10px 5px 5px rgba(0,0,0,0.26)",
       },
       padding: {
         ["10vw"]: "10vw",
+      },
+      fontSize: {
+        clampHead: "clamp(.8rem, 2vw, 1.25rem)",
       },
     },
   },
