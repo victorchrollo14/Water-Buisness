@@ -13,6 +13,7 @@ export default {
         ["light-green"]: "rgba(117, 251, 130, 0.5)",
         ["lightest-blue"]: "#E9F9FF",
         ["tblue"]: "#00D1FF",
+        ["green"]: "#75FB82",
       },
       fontFamily: {
         monospace: [
@@ -40,6 +41,9 @@ export default {
         ["50vw"]: "50vw",
         ["35vw"]: "35vw",
         ["40vw"]: "40vw",
+        ["60vw"]: "60vw",
+        ["70vw"]: "70vw",
+        ["80vw"]: "80vw",
       },
       borderWidth: {
         ["1"]: "1px",
