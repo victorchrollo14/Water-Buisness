@@ -7,9 +7,9 @@ export const Form = () => {
 
   return (
     <>
-      <div className="form-section bg-lightest-blue flex flex-col p-5 rounded-lg shadow-xl lg:w-80">
+      <div className="form-section bg-lightest-blue flex flex-col p-5 rounded-lg shadow-xl w-full md:h-fit">
         <h2 className="mb-3 ">Send Us a Message</h2>
-        <form action="" className="flex flex-col  gap-2 items-center relative h-60">
+        <form action="" className="flex flex-col  gap-2 items-center relative h-60 md:w-96 ">
           <input
             type="text"
             value={name}
