@@ -1,7 +1,7 @@
 import React from "react";
 import prod1 from "../assets/Mineral-can-transformed.jpeg";
 import prod2 from "../assets/bisleri-product.png";
-import { Line } from "./svg";
+import { Curve, Line } from "./svg";
 
 function Products() {
   const data = [
@@ -22,7 +22,14 @@ function Products() {
   ];
 
   return (
-    <section className="product-section bg-lightest-blue p-10 sm:py-20">
+    <section className="product-section bg-lightest-blue p-10 sm:py-20  ">
+      <div className="heading flex  flex-col justify-center items-center pb-5 sm:pb-20">
+        <h1 className="text-center mb-3 text-base font-semibold font-mono  md:text-2xl ">
+          We Deliver Best Quality <br /> Water Pack
+        </h1>
+        <Curve />
+      </div>
+
       <ul className="product-list  flex flex-col items-center justify-center gap-8 sm:flex-row ">
         {data.map(({ id, price, name, cap, img }) => {
           return (
@@ -35,7 +42,9 @@ function Products() {
               <div className="more-info flex flex-col items-center">
                 <Line />
                 <h3 className="mt-6 text-xs font-mono text-slate-600">{cap}</h3>
-                <h1 className="font-sans font-medium text-sm sm:text-clampHead">{name}</h1>
+                <h1 className="font-sans font-medium text-sm sm:text-clampHead">
+                  {name}
+                </h1>
                 <h3 className="text-sm text-tblue mt-2">{price}</h3>
               </div>
             </li>
