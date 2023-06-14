@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/logo.png";
 
-let linksClass = "text-sm ml-6 list-disc hover:text-red-400";
+let linksClass = "text-sm ml-6 list-disc hover:text-green";
 
 export const Footer = () => {
   return (
@@ -14,9 +14,9 @@ export const Footer = () => {
         </p>
       </div>
 
-      <ul className="site-map m-5">
+      <ul className="site-map m-5 [&>li]:w-fit">
         <li>
-          <h1 className="font-mono font-bold">Site Map</h1>
+          <h1 className="font-mono font-bold text-green">Site Map</h1>
         </li>
         <li className={linksClass}>
           <a href="#Home">Home</a>
@@ -31,8 +31,8 @@ export const Footer = () => {
           <a href="#Contact">Contact</a>
         </li>
       </ul>
-      <ul className="ph-nums text-white font-sans m-5">
-        <li className="font-mono font-bold">PHONE</li>
+      <ul className="ph-nums text-white font-sans m-5 [&>li]:w-fit">
+        <li className="font-mono font-bold text-green">PHONE</li>
         <li className={linksClass}>
           <a href="tel:9620300513">9620300513</a>
         </li>

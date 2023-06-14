@@ -27,7 +27,7 @@ export const MenuBar = () => {
 export const WhatsApp = () => {
   return (
     <svg
-      width={"24px"}
+      width={"35px"}
       xmlns="http://www.w3.org/2000/svg"
       aria-label="WhatsApp"
       role="img"
