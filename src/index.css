@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .sub-heading {
   line-height: 1.2;
 }
@@ -40,5 +44,3 @@
       url("../src/assets/can-mark-transformed.jpeg");
   }
 }
-
-

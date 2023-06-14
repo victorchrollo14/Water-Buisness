@@ -22,7 +22,10 @@ function Products() {
   ];
 
   return (
-    <section className="product-section bg-lightest-blue p-10 sm:py-20  ">
+    <section
+      id="Product"
+      className="product-section bg-lightest-blue p-10 sm:py-20  "
+    >
       <div className="heading flex  flex-col justify-center items-center pb-5 sm:pb-20">
         <h1 className="text-center mb-3 text-base font-semibold font-mono  md:text-2xl ">
           We Deliver Best Quality <br /> Water Pack
@@ -37,7 +40,7 @@ function Products() {
               key={id}
               className="flex flex-col p-8 md:pb-12 border rounded-xl shadow-2xl bg-white max-w-sm sm:max-w-lg"
             >
-              <img src={img} alt="" srcset="" />
+              <img src={img} alt="Product image" />
 
               <div className="more-info flex flex-col items-center">
                 <Line />
