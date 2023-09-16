@@ -11,15 +11,17 @@ import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
-    <div className="app min-h-screen relative ">
-      <Header />
-      <Hero />
-      <About />
-      <Products />
-      <Contact />
-      <Footer />
+    <>
+      <div className="app min-h-screen relative ">
+        <Header />
+        <Hero />
+        <About />
+        <Products />
+        <Contact />
+        <Footer />
+      </div>
       <Analytics />
-    </div>
+    </>
   );
 }
 
