@@ -7,6 +7,8 @@ import Products from "./components/Products";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
+import { Analytics } from "@vercel/analytics/react";
+
 function App() {
   return (
     <div className="app min-h-screen relative ">
@@ -16,6 +18,7 @@ function App() {
       <Products />
       <Contact />
       <Footer />
+      <Analytics />
     </div>
   );
 }
